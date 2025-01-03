@@ -20,5 +20,5 @@
     "**/components/**/index.tsx": "${dirname} - Component"
   },
   "json.schemaDownload.enable": false,
-  "cSpell.words": ["nextui", "shadcn", "tabler"]
+  "cSpell.words": ["commitlint", "Env", "nextui", "shadcn", "tabler", "Vercel"]
 }
