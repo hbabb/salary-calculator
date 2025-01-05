@@ -7,7 +7,7 @@ expand(config({ path: ".env.local" }));
 
 // console.log("Loaded Environment Variables: ", process);
 
-export const serverEnv = createEnv({
+export const env = createEnv({
   server: {
     NODE_ENV: z.enum(["development", "production"]).default("development"),
   },
