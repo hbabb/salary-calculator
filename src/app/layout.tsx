@@ -20,32 +20,31 @@ export const metadata: Metadata = {
   title: "Salary Calculator",
 
   description:
-    "A salary calculator that allows users to input a monthly salary, annual salary, or hourly rate and automatically calculates the other two formats. It also includes a feature to convert salaries into different currencies using real-time exchange rates.",
+    "Calculate monthly, annual, or hourly salary with currency conversion. Supports real-time exchange rates for accurate results.",
 
-  // manifest: "/manifest.json",
-  // appleWebApp: {
-  //   capable: true,
-  //   statusBarStyle: "default",
-  //   title: "Salary Calculator",
-  // },
-  // formatDetection: {
-  //   telephone: false,
-  // },
-  // openGraph: {
-  //   type: "website",
-  //   images: "/images/png/portfolio-preview.png",
-  //   siteName: "Salary Calculator",
-  //   title: "Salary Calculator",
-  //   description:
-  //     "A salary calculator that allows users to input a monthly salary, annual salary, or hourly rate and automatically calculates the other two formats. It also includes a feature to convert salaries into different currencies using real-time exchange rates.",
-  // },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   images: "/images/png/portfolio-preview.png",
-  //   title: "Salary Calculator",
-  //   description:
-  //     "A salary calculator that allows users to input a monthly salary, annual salary, or hourly rate and automatically calculates the other two formats. It also includes a feature to convert salaries into different currencies using real-time exchange rates.",
-  // },
+  manifest: "/public/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Salary Calculator",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    images: "/public/web-app-manifest-192x192.png",
+    siteName: "Salary Calculator",
+    title: "Salary Calculator",
+    description:
+      "Calculate salaries and convert them into different currencies using real-time exchange rates.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: "/public/web-app-manifest-512x512.png",
+    title: "Salary Calculator",
+    description: "Easily calculate and convert salaries with our real-time exchange rate support.",
+  },
 };
 
 export const viewport: Viewport = {
