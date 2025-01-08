@@ -119,7 +119,7 @@ export const SalaryCalculator = () => {
   return (
     <Card className="mx-auto max-w-md p-4 shadow-md md:max-w-lg lg:max-w-xl">
       <CardHeader className="flex flex-col gap-4">
-        <CardTitle className="text-center text-sm font-bold md:text-lg lg:text-2xl">
+        <CardTitle className="mt-6 text-center text-sm font-bold md:text-lg lg:text-2xl">
           Salary Calculator
         </CardTitle>
         <CardDescription className="flex flex-row justify-between gap-4">
